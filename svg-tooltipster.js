@@ -17,7 +17,22 @@
 
 		});
 		
-		$("svg [title]").tooltipster();
+		$("svg [title]").tooltipster({
+			trigger: "custom",
+			triggerOpen: {
+				mouseenter: true,
+				touchstart: true,
+				click: true,
+				tap: true
+			},
+			triggerClose: {
+				mouseleave: true,
+				originClick: true,
+				touchleave: true,
+				click: true,
+				tap: true
+			}
+		});
 		
 	});
 }(jQuery))
