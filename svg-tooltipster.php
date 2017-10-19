@@ -19,13 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-/**
- * Global variables
- */
-$plugin_version = '0.1.0';									// for use on admin pages
-$plugin_file = plugin_basename(__FILE__);					// plugin file for reference
-//$dtnj_svgs_options = get_option('dtnj_svgs_settings');	// retrieve our plugin settings from the options table
-
 /*
  * Enqueue js and css dependencies
  */
